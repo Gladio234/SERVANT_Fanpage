@@ -23,9 +23,6 @@
             width: 100%;
             height: 30%;
             object-fit: cover;
-            animation-name: move_up;
-            animation-fill-mode: forwards;
-            animation-duration: 3s;
         }
         
         .updated{
@@ -52,18 +49,44 @@
         }
 
         .closer{
-            margin-top: 53%;
+            margin-top: 60%;
         }
 
         .closer_text{
-            margin-left: 10%;
+            margin-left: 22%;
         }
         .closer_picture{
-            width: 30%;
+            width: 45%;
             height: auto;
-            object-fit: scale-down;
-            margin-left: 34%;
-            filter:contrast(2)
+            margin-left: 27%;
+            filter: saturate(2)
+        }
+        .merchButton{
+            margin-left: 48%;
+            margin-top: 2%;
+        }
+
+        .URServant{
+            margin-top: 10%;
+        }
+
+        .heart{
+            margin-top: 2%;
+            height: 400px;
+            margin-left: 16%;
+            float: left;
+        }
+        .heartText{
+            float: right;
+            right:8%;
+            margin-top: 11%;
+            position: absolute;
+        }
+
+        .links{
+            margin-top: 40%;
+            background-color: dimgray ;
+
         }
 
         p{
@@ -100,12 +123,26 @@
 
     <div class="closer">
         <p class="closer_text ">Want to get even closer? Check out our exclusive merch – only available here.</p>
-        <img class="closer_picture" src="images/WhatsApp Image 2025-07-28 at 22.47.17.jpeg">
+        <img class="closer_picture" src="images/WhatsApp Image 2025-07-28 at 22.42.29.jpeg">
+        <button style="font-size: 20px; padding: 8px ; background-color: white; color: black; font-family: sans-serif; border-radius: 8px;" class="merchButton">Merch</button>
     </div>
 
-    <p> You’re more than a listener here, you're SERVANT.</p>
-    <p>Whether you have song requests, ideas, or just want to share your thoughts – we’re listening.</p>
+    <div class = "URServant"> 
+        <p> You’re more than a listener here, you're SERVANT.</p>
+        <p>Whether you have song requests, ideas, or just want to share your thoughts – we’re listening.</p> 
+        <img class = "heart" src = "images/WhatsApp Image 2025-07-28 at 22.46.45.jpeg">
+        <p class ="heartText"> Enjoy exploring – we’re glad to have you as part of SERVANT! </p>
+    </div>
 
-    <p>Enjoy exploring – we’re glad to have you as part of the community! </p>
+    <div class = "links">
+        <img class="youtube" src = "icons/icons8-youtube-50.png">
+        <img class = "insta" src = "icons/icons8-instagram-48.png">
+        <img class = "spotify" src ="icons/[CITYPNG.COM]HD Spotify Round Outline White Icon PNG - 1500x1500.png">
+        <img class= "appleMusic" src ="icons/icons8-apple-music-logo-24.png">
+        <img class="events" src ="icons/icons8-today-50.png">
+    </div>
+    
+
+    
 </body>
 </html>
